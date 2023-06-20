@@ -1,0 +1,134 @@
+.main-app {
+  width: 60%;
+  margin:auto;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+
+.Statscontainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Statscontainer > h4 {
+  background-color: #84525281;
+  width: 120px;
+  margin: 10px;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 8px;
+  font-weight: bolder;
+  box-shadow:3px 3px black;
+}
+
+
+#table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover:not(.total-amount) {background-color: #ddd;}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #84525281;
+  color: white;
+}
+
+.order-distribution {
+  display: flex;
+  justify-content: space-around;
+}
+
+.order-distribution > div {
+  width: 50%;
+  margin: 10px;
+  text-align: left;
+  padding: 8px;
+}
+
+.rdt_Table .rdt_TableCell{
+  font-size:20px;
+  border: 1px solid #ddd;
+}
+
+
+.rdt_Table  .rdt_TableHeadRow {
+  background-color: #84525281;
+  color: white;
+  font-size:18px;
+}
+
+.rdt_Table {
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.rdt_Table  .rdt_TableCol {
+  font-size:18px;
+  border: 1px solid #ddd
+}
+
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form label {
+  text-align: left;
+  display: block;
+}
+
+.form input:not(.submit), .form textarea, .form select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.form button  {
+  background: #2fc7cf;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px;
+  width: 20%;
+}
+
+.submit {
+  background: #2fc7cf;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px;
+  width:20%;
+}
+
+Button.login {
+  margin:0 10px;
+  float:right;
+}
+
